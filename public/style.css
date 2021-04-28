@@ -13,16 +13,17 @@ body,
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #000000;
   color: #ffffff;
-  height: 80px;
+  height: 60px;
   padding: 10px;
-  line-height: 3;
-  font-size: 1.2rem;
+  padding-top:12px;
+  line-height: 2.5;
+  font-size: 15px;
 }
 
 a,
@@ -35,6 +36,7 @@ a:visited {
 
 nav a:hover{
   opacity: 0.7;
+  transition: all 0.3s ease-in-out !important;
 }
 
 header {
@@ -100,7 +102,7 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  
   padding-bottom: 100px;
 }
 
@@ -138,13 +140,15 @@ form::after {
 }
 
 .exercise .ui.card {
+
   width: 400px;
-  max-width: 600px;
+
 }
 
 .exercise .buttons {
   margin-top: 20px;
   display: flex;
+  height: 60px;
 }
 
 .exercise .buttons button {
@@ -221,9 +225,15 @@ button {
   font-size: 1rem;
   border-radius: 6px;
   border: 1px solid #aaa;
-  padding: 10px;
+
   background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
+
+
+.indexBtn {
+  padding-top: 28px !important;
+}
+
 
 #toast {
   border-radius: 4px;
@@ -363,8 +373,9 @@ form > button {
 }
 
 .prev-workout h3 {
-  font-size: 2rem;
+  font-size: 24px;
   width: 100%;
+  padding-bottom:5px;
 }
 
 .prev-workout p {
@@ -372,9 +383,6 @@ form > button {
   margin-bottom: 5px;
 }
 
-/* .workout .card {
-  width: 350px;
-} */
 
 .prev-workout button {
   margin: 10px;
@@ -389,7 +397,7 @@ form > button {
 }
 
 .workout .ui.card {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .prev-workout {
@@ -398,7 +406,7 @@ form > button {
 
 .prev-workout .buttons {
   display: flex;
-  height: 75px;
+  height: 65px;
   margin-top: 30px;
 }
 
@@ -409,6 +417,7 @@ form > button {
 
 .ui.card h2 {
   padding: 10px;
+  padding-top: 10px;
 }
 
 .buttons .ui.button:first-child {
@@ -439,3 +448,4 @@ form > button {
     right: -320px;
   }
 }
+
