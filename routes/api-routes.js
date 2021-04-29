@@ -1,10 +1,4 @@
-
 const db = require("../models");
-
-require("mongoose");
-
-
-
 
 module.exports = (app) => {
 
@@ -13,10 +7,7 @@ module.exports = (app) => {
 
     app.post("/api/workouts", (req, res) => {
 
-
         db.Workout.create({}).then(data => res.json(data))
-
-
         .catch(err => {
 
             console.log("error", err);
@@ -71,7 +62,9 @@ module.exports = (app) => {
     });   
 
 
-
+app.get('/api/workouts/test', (req,res) => {
+    res.send('<h1>Works</h1>')
+})
 
 
     app.get("/api/workouts", (req, res) => {
