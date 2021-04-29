@@ -1,0 +1,12 @@
+{"_id":{"$oid":"608708df3fda067c93f85e8a"},"day":1.618598367353E+12,"exercises":[{"type":"resistance","name":"Bicep Curl","duration":20,"weight":100,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e8b"},"day":1.618684767356E+12,"exercises":[{"type":"resistance","name":"Lateral Pull","duration":20,"weight":300,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e8c"},"day":1.618771167356E+12,"exercises":[{"type":"resistance","name":"Push Press","duration":25,"weight":185,"reps":8,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e8d"},"day":1.618857567356E+12,"exercises":[{"type":"cardio","name":"Running","duration":25,"distance":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e8e"},"day":1.618943967356E+12,"exercises":[{"type":"resistance","name":"Bench Press","duration":20,"weight":285,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e8f"},"day":1.619030367356E+12,"exercises":[{"type":"resistance","name":"Bench Press","duration":20,"weight":300,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e90"},"day":{"$date":"2021-04-22T18:39:27.356Z"},"exercises":[{"type":"resistance","name":"Quad Press","duration":30,"weight":300,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e91"},"day":{"$date":"2021-04-23T18:39:27.356Z"},"exercises":[{"type":"resistance","name":"Bench Press","duration":20,"weight":300,"reps":10,"sets":4}]}
+{"_id":{"$oid":"608708df3fda067c93f85e92"},"day":{"$date":"2021-04-24T18:39:27.356Z"},"exercises":[{"type":"resistance","name":"Military Press","duration":20,"weight":300,"reps":10,"sets":4},{"_id":{"$oid":"60870c3a63b9527eca281dbf"},"type":"resistance","name":"pooping","weight":300,"sets":4,"reps":10,"duration":12}]}
+{"_id":{"$oid":"60870c7563b9527eca281dc0"},"day":{"$date":"2021-04-26T18:54:45.222Z"},"exercises":[],"__v":0}
+{"_id":{"$oid":"6089d7118b0a51297cb328a9"},"day":{"$date":"2021-04-28T21:43:45.827Z"},"exercises":[{"_id":{"$oid":"6089d71f8b0a51297cb328aa"},"type":"resistance","name":"squads","weight":500,"sets":56,"reps":20,"duration":20},{"_id":{"$oid":"6089dd688897b32ba79ad869"},"type":"cardio","name":"3345","distance":34,"duration":3}],"__v":0}
+{"_id":{"$oid":"6089dd6f8897b32ba79ad86a"},"day":{"$date":"2021-04-28T22:10:55.147Z"},"exercises":[{"_id":{"$oid":"6089dd768897b32ba79ad86b"},"type":"resistance","name":"frat","weight":3,"sets":3,"reps":3,"duration":3}],"__v":0}
