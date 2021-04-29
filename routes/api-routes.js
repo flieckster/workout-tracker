@@ -7,13 +7,14 @@ module.exports = (app) => {
 
     app.post("/api/workouts", (req, res) => {
 
-        db.Workout.create({}).then(data => res.json(data))
+        const data = req.body
+
+        db.Workout.create(data)
+        .then(data => 
+            res.json(data))
         .catch(err => {
-
             console.log("error", err);
-
             res.json(err);
-
           });
     });
 

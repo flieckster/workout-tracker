@@ -8,6 +8,7 @@ const logger = require("morgan");
 
 
 const PORT = process.env.PORT || 3000 ;
+const DB_URI =process.env.MONGODB_URI || 'mongodb://localhost/workout'
 
 
 
@@ -25,7 +26,7 @@ app.use(express.static("public"));
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/workout',
+    DB_URI,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
