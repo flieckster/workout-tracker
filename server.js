@@ -32,7 +32,6 @@ mongoose.connect(
       useCreateIndex: true,
       useFindAndModify: false
     }
-    
   );
 
 require("./routes/html-routes.js")(app);
