@@ -76,18 +76,15 @@ module.exports = (app) => {
 
     app.get("/api/workouts", (req, res) => {
 
-
-        db.Workout.find({}).then(data => res.json(data))
-
-
+        db.Workout.find({})
+        .then(data => {
+            console.log('RES WORKO?UTS FIND ALL =-->', data)
+            res.json(data)
+        })
         .catch(err => {
-
             console.log("error", err);
-
             res.json(err);
-
           });
-
     });
 
 
